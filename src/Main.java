@@ -16,7 +16,8 @@ public class Main
 
 
     public static void main(String[] args) {
-        IAnimalFactory factory = new AnimalFacroyRandom();
+        //IAnimalFactory factory = new AnimalFacroyRandom();
+        AnimalFactoryBag factory = new AnimalFactoryBag();
 
         System.out.println(factory.makeAnimal().getClass().getName());
         System.out.println(factory.makeAnimal().getClass().getName());
