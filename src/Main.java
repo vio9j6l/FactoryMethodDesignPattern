@@ -14,19 +14,25 @@ public class Main
         System.out.println();
     }
 
+
     public static void main(String[] args) {
-        Animal dog = SimpleAnimalFactory.buildAnimal("dog");
-        Animal cat = SimpleAnimalFactory.buildAnimal("cat");
-        Animal bird = SimpleAnimalFactory.buildAnimal("bird");
+        IAnimalFactory factory = new AnimalFacroyRandom();
 
-        dog.setName("Fido");
-        showOff(dog);
+        System.out.println(factory.makeAnimal().getClass().getName());
+        System.out.println(factory.makeAnimal().getClass().getName());
+        System.out.println(factory.makeAnimal().getClass().getName());
+        System.out.println("=======================");
 
-        cat.setName("Toonces");
-        showOff(cat);
+        System.out.println(factory.makeAnimal().getClass().getName());
+        System.out.println(factory.makeAnimal().getClass().getName());
+        System.out.println(factory.makeAnimal().getClass().getName());
+        System.out.println("=======================");
 
-        bird.setName("Tweety");
-        showOff(bird);
+        System.out.println(factory.makeAnimal().getClass().getName());
+        System.out.println(factory.makeAnimal().getClass().getName());
+        System.out.println(factory.makeAnimal().getClass().getName());
+        System.out.println("=======================");
+
     }
 
 }
