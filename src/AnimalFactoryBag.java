@@ -1,3 +1,11 @@
+/*
+ Course: IST 311
+ Instructor: Phil O'Connell (pxo4)
+ Student: JiaJia Liu
+ Email: JPL5840@psu.edu
+ Assignment: LB10
+*/
+
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Stack;

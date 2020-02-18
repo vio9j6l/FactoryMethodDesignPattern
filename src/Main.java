@@ -1,8 +1,9 @@
 /*
  Course: IST 311
  Instructor: Phil O'Connell (pxo4)
- Student: Your Name
- Email: Your PSU email
+ Student: JiaJia Liu
+ Email: JPL5840@psu.edu
+ Assignment: LB10
 */
 
 public class Main
